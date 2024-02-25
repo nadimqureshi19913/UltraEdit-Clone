@@ -1,0 +1,788 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   transition: all 0.4s ease; 
+}
+body
+{
+    width: 100vw;
+    height: 200vh;
+    background: rgb(43, 41, 41);    
+}
+.top-offer
+{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: url('https://www.ultraedit.com/wp-content/uploads/2023/01/45_UE_Holydays_Promos_Header.webp');
+   
+
+}
+.top-offer button
+{
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.top-offer img
+{
+    width: 200px;
+}
+nav
+{
+    background: transparent;
+    padding: 10px;
+    width: 80%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* border: 2px solid white; */
+    margin: auto;
+}
+nav .logo
+{
+    display:flex;
+    justify-content: center;
+    
+}
+
+nav .logo span
+{
+    padding:5px 10px;
+    height: 60px;
+    background: rgb(244, 217, 12);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: rgb(43, 41, 41);
+    border-radius: 6px;
+    font-style: italic;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo-text
+{
+    text-align: justify;
+    margin-left: 15px;
+}
+.logo-text h1
+{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.logo-text p
+{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:200;
+    margin-top: 7px;
+}
+
+.menu ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menu ul a
+{
+    list-style: none;
+    text-decoration: none;
+}
+.menu ul img
+{
+    width: 30px;
+    
+}
+.menu ul li
+{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu ul li:hover
+{
+  
+    background: white;
+    color: black;
+    border-radius: 20px;
+}
+/* main div start from here */
+.main
+{
+    width: 100%;
+    /* height: 60vh; */
+    /* background: red; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align:justify;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.main .main-content  span
+{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.main .main-content  span:nth-child(1)
+{
+    background:rgb(69, 64, 64);
+    color: rgb(244, 217, 12);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.main .main-content  span:nth-child(3)
+{
+    font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main .main-content h2
+{
+   width: 600px;
+    margin-top: 40px;
+
+}
+.main .main-content a
+{
+    color: white;
+}
+.main .main-content a:hover
+{
+color: blue;
+}
+ .btn
+{
+    width: 500px; 
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: j;
+}
+.btn button
+{
+    padding: 10px 30px 10px 30px;
+    width:300px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn-1
+{
+    background: rgb(38, 182, 182);
+    border: none;
+    margin-left: -30px;
+}
+.btn-2
+{
+    background:transparent;
+    border: 2px solid white;
+    color: white;
+}
+.btn-2:hover
+{
+    background: rgba(0,0,0,0.8);
+}
+
+.btn-1:hover
+{
+    background: rgba(27, 119, 232, 0.8);
+}
+
+.updates
+{
+    margin-top: 30px;
+
+}
+
+.awards
+{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+
+.award-image{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.awards .reviews img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.reviews span
+{
+    color: rgb(10, 144, 253);
+    font-size: 17px;
+}
+
+.text-edits
+{
+    /* margin-top: 30px; */
+     background: rgb(233, 233, 18);
+     padding: 20px 0;
+     font-size: 30px;
+     font-weight:900 ;
+     color: black;
+     font-family: serif;
+     /* height: 15vh; */
+     margin-top: 50px;
+   margin-bottom: -50px;
+}
+
+/* editors start from here */
+.editors
+{
+    width: 100vw;
+    /* height: 40vh; */
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    flex-wrap: wrap;
+   padding-top: 130px ;
+}
+.editors>div
+{
+    width: 15%;
+/* background: red; */
+    padding: 10px 20px;
+    height: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.editor .flash
+{
+width: 40px;
+padding: 5px 7px;
+background: black;
+border-radius: 5px;
+}
+
+.icons i
+{
+    font-size: 60px;
+}
+
+/* access-conetent div start from here */
+.access-content
+{
+    width: 100%;
+    /* height: 30vh; */
+    background: white;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.access-content span
+{
+     
+    font-weight: 800;
+}
+
+/* tool-package-box start from here */
+.tool-package-box
+{
+    width: 100%;
+    /* height: 70vh; */
+    background:white;
+    padding: 20px 20px;
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.tool-package-box .package-box
+{
+    height:70%;
+    width: 12%;
+    /* background: blue; */
+    color:black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+justify-content: center;
+gap: 10px;
+flex-direction: column;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tool-package-box .package-box button
+{
+    margin-bottom: -20px;
+    padding:10px 0;
+    width: 80%;
+    text-align: center;
+    background: rgb(27, 227, 227);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/* testimonials-div start from here */
+
+.testimonials
+{
+    width: 100%;
+    /* height: 70vh; */
+    /* background: #efefef; */
+    padding: 40px 30px;
+    text-align:center;
+    font-family: sans-serif;
+    color: white;
+}
+.testimonials .testing-text
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    /* background: blue; */
+    padding: 10px;
+    text-align: justify;
+    flex-wrap: wrap;
+    
+}
+.testimonials .testing-text>div
+{
+    width: 30%;
+}
+
+.testimonials .testing-text>div h1
+{
+    margin-bottom: 40px;
+}
+.testimonials .testing-text>div p
+{
+    margin-bottom: 20px;
+}
+.testimonials .ultr-btn
+{
+width: 35%;
+padding: 20px 20px;
+border: none;
+background: rgb(27, 227, 227);
+font-size: 14px;
+font-weight: 800;
+color: white;
+border-radius: 10px;
+}
+
+/* footer start from here */
+ footer
+ {
+    width: 100%;
+    background: #efefef;
+    padding: 10px 30px;
+ }
+ .lang-link
+ {
+    width: 80%;
+padding: 60px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items:center;
+    text-align: justify;
+    /* background: red; */
+    margin: auto;
+    font-size: 13px;
+    flex-wrap: wrap;
+ }
+ .lang-link>div
+{
+height: 100%;
+text-align: start ;
+font-family: sans-serif;
+
+}
+.lang-link>div h1
+{
+    margin-bottom: 20px;
+}
+
+.lang-link>div ul li
+{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+footer .uses
+{
+    margin-top: -80px;
+}
+
+footer .General-policy
+{
+    margin-top: -50px;   
+}
+ footer .subscription
+ {
+    margin-top: -40px;
+ }
+ footer .subscription input
+ {
+    margin: 20px 0;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+ }
+ footer .subscription button
+ {
+     padding: 10px 70px;
+     font-family: sans-serif;
+     color: white;
+     border: none;
+     background: rgb(27, 227, 227);
+     border-radius: 10px;
+     font-weight: 800;
+ }
+
+ /* secial-media-icon start from here */
+footer .social-medias-icon
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:justify;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .social-medias-icon .social-icons
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:justify;
+    gap: 20px;
+    font-size: 20px;
+}
+footer .social-medias-icon p
+{
+    margin: 10px 0;
+}
+footer .social-medias-icon .social-icons i
+{
+    color: black;
+}
+footer .social-medias-icon h1
+{
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+footer .social-medias-icon  span
+{
+padding: 6px 3px;
+font-size:30px ;
+background: orange;
+border-radius: 10px;
+}
+
+
+
+/* media query start from here */
+@media screen and (max-width:1400px) 
+{
+   
+
+    .top-offer 
+    {
+        min-height: 30vh;
+        }
+    .top-offer h1
+    {
+        font-size: 25px;
+        
+        }
+    .top-offer button
+    {
+        padding: 0 20px;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .top-offer img
+    {
+        width: 180px;
+    } 
+
+    /* nav bar start from here */
+    nav
+{
+    height: 20vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+nav .logo
+{
+    display:flex;
+    justify-content: center;
+}
+
+nav .logo span
+{
+    padding:5px 10px;
+    height: 50px;
+    font-size: 30px;
+    flex-wrap: wrap;
+   }
+.logo-text
+{
+    margin-left: 5px;
+}
+.logo-text h1
+{
+    font-size: 25px;
+}
+.logo-text p
+{
+    font-size: 13px;
+}
+
+.menu ul
+{
+    gap: 10px;
+    width: 100%;
+}
+
+.menu ul img
+{
+    width: 30px;
+    
+}
+.menu ul li
+{
+    font-size: 17px;
+}
+
+
+/* main is start from here */
+
+.main
+{
+    height: 120vh;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.main .main-content  span
+{
+    font-size: 40px;
+}
+.main .main-content  span:nth-child(1)
+{
+    margin-right: 0px;
+}
+.main .main-content 
+{
+   width: 90%;
+    margin-top: 20px;
+}
+.main .main-content h2
+{
+   width:100%;
+    margin-top: 40px;
+    font-size: 17px;
+
+}
+.btn
+{
+    width:100%;
+    margin-top: 20px;
+    font-size: 15px;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.image img
+{
+    width: 60%;
+} 
+
+.updates
+{
+    margin-top: 100px;
+height: 12vh;
+margin-bottom: -30px;
+}
+
+/* awards and its content start from here */
+
+.awards
+{
+   height:60vh ;
+    padding: 20px 0;
+}
+.award-image img
+{
+    width: 70%;
+}
+
+/* text-edits is start from here */
+
+.text-edits
+{
+font-size: 17px;
+background: rgb(43, 41, 41) ;
+color: white;
+margin-top: 10px;
+}
+
+/* editors start from here */
+.editors
+{
+    width: 100vw;
+    height: 150vh;
+   
+}
+.editors>div
+{
+width: 80%;
+padding: 10px;
+height: 200px;
+
+}
+.access-content
+{
+    font-size: 16px;
+    display:inline-block;
+    flex-direction: column;
+    text-align: center;
+}
+.access-content h2
+{
+    margin-bottom: 20px;
+}
+
+
+/* tool-package-box start from here */
+.tool-package-box
+{
+    background:rgb(43, 41, 41);
+    color: white;
+    padding:30px 0px;
+    text-align: justify;
+}
+.tool-package-box .package-box
+{
+    width: 80%;
+   padding: 70px 0;
+    background:rgb(43, 41, 41);
+    color: white;
+    margin: 30px 0px;;
+    text-align:justify;
+}
+
+/* testimonial div start fromhere */
+
+
+.testimonials .testing-text
+{
+    display: flex;
+    justify-content:center;
+    /* background: blue; */ 
+}
+.testimonials .testing-text>div
+{
+    width: 100%;
+    padding: 10px 20px;
+}
+.testimonials .ultr-btn
+{
+    width: 90%;
+}
+.subscription input
+{
+    width: 100%;
+    font-size: 15px;
+}
+.subscription button
+{
+    width: 100%;
+    padding: 20px 70px;
+    font-size: 20px;
+}
+.lang-link>div
+{
+    width: 100%;
+    margin: 20px 0;
+}
+footer .social-medias-icon .social-icons i
+{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+}
+
